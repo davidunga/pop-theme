@@ -1,0 +1,39 @@
+{
+    "name": "pop-theme",
+    "displayName": "Pop Theme",
+    "description": "A VS Code theme.",
+    "version": "1.0.0",
+    "publisher": "david-unga",
+    "repository": "none",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "icon": "./assests/icon.png",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DarkPop Mint",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darkpop-mint-theme.json"
+            },
+            {
+                "label": "DarkPop White",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darkpop-white-theme.json"
+            },
+            {
+                "label": "DarkPop Gold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darkpop-gold-theme.json"
+            },
+            {
+                "label": "DarkPop Blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darkpop-blue-theme.json"
+            }
+        ]
+    }
+}
