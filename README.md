@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/davidunga/pop-theme/blob/main/meta-assests/banner-001.png" width="250" />
+  <img src="https://github.com/davidunga/pop-theme/blob/main/meta-assets/banner-001.png" width="250" />
 </p>
 <p align="center">
 A crisp theme that keeps you in flow. Probably compatible with your favorite editor.
