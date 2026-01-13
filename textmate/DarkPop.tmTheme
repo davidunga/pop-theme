@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>DarkPop</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#000000</string>
+				<key>caret</key>
+				<string>#d4d4d4</string>
+				<key>foreground</key>
+				<string>#d4d4d4</string>
+				<key>guide</key>
+				<string>#707070</string>
+				<key>gutter</key>
+				<string>#111111</string>
+				<key>gutterForeground</key>
+				<string>#cccccc</string>
+				<key>invisibles</key>
+				<string>#707070</string>
+				<key>lineHighlight</key>
+				<string>#707070</string>
+				<key>selection</key>
+				<string>#264f78</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.control, keyword, storage.modifier, keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#FF476E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>string.quoted, string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#94bfff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant.numeric, number</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f1b3f1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.name.function.preprocessor</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#f1b3f1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>comment, comment.line, comment.block</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#919191</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>comment.documentation, comment.block.documentation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#95FF6E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>storage.type, meta.declaration, entity.name.type.class, storage.modifier</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic bold</string>
+				<key>foreground</key>
+				<string>#FF476E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>meta.decorator, storage.modifier, meta.annotation, keyword.other.decorator, entity.name.function.decorator</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#ededed</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>punctuation.operator, entity.name.function.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ededed</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>meta.function entity.name, support.function.constructor, entity.name.function.definition, meta.head.function.definition</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#01f7f7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>meta.function-call, entity.name.function.call, entity.name.function.member</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>meta.block.class.cpp entity.name.type.class.cpp, entity.name.type.class.cpp, entity.name.type.class, entity.name.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic bold</string>
+				<key>foreground</key>
+				<string>#01f7f7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>variable.other, meta.definition.variable, identifier, meta.function-call.arguments</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ededed</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>variable.language.self, variable.language.this, variable.language.special.self, variable.language.special.this, variable.parameter.function.language.special.self, variable.parameter.function.language.special.this</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#ffc232</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant.language, keyword.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#FF476E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>support.type.builtin, entity.name.type.builtin, storage.type.builtin, support.function.builtin, support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#63ff99</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>55451d75-34f8-5686-ae51-30cebdc542b8</string>
+</dict>
+</plist>
