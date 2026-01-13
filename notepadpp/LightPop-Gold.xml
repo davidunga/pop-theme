@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <GlobalStyles>
+        <WidgetStyle name="Global override" styleID="0" fgColor="1710618" bgColor="16448250" />
+        <WidgetStyle name="Default Style" styleID="32" fgColor="1710618" bgColor="16448250" />
+        <WidgetStyle name="Indent guideline style" styleID="37" fgColor="13948116" />
+        <WidgetStyle name="Brace highlight style" styleID="34" fgColor="2139610" bgColor="16448250" />
+        <WidgetStyle name="Bad brace colour" styleID="35" fgColor="255" bgColor="16448250" />
+        <WidgetStyle name="Current line background colour" styleID="0" bgColor="15263976" />
+        <WidgetStyle name="Selected text colour" styleID="0" bgColor="16766637" />
+        <WidgetStyle name="Caret colour" styleID="2069" fgColor="1710618" />
+        <WidgetStyle name="Line number margin" styleID="33" fgColor="4868682" bgColor="15263976" />
+        <WidgetStyle name="Fold margin" styleID="0" fgColor="15263976" bgColor="15263976" />
+        <WidgetStyle name="Fold" styleID="0" fgColor="4868682" bgColor="15263976" />
+        <WidgetStyle name="Fold active" styleID="0" fgColor="2139610" />
+    </GlobalStyles>
+    <LexerStyles>
+        <LexerType name="python" desc="Python">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="1710618" bgColor="16448250" />
+            <WordsStyle name="COMMENTLINE" styleID="1" fgColor="8417899" bgColor="16448250" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="2" fgColor="16209320" bgColor="16448250" />
+            <WordsStyle name="STRING" styleID="3" fgColor="16155195" bgColor="16448250" />
+            <WordsStyle name="CHARACTER" styleID="4" fgColor="16155195" bgColor="16448250" />
+            <WordsStyle name="KEYWORDS1" styleID="5" fgColor="4726241" bgColor="16448250" fontStyle="2" />
+            <WordsStyle name="TRIPLE" styleID="6" fgColor="16155195" bgColor="16448250" />
+            <WordsStyle name="TRIPLEDOUBLE" styleID="7" fgColor="16155195" bgColor="16448250" />
+            <WordsStyle name="CLASSNAME" styleID="8" fgColor="11702536" bgColor="16448250" fontStyle="1" />
+            <WordsStyle name="DEFNAME" styleID="9" fgColor="11702536" bgColor="16448250" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="1775640" bgColor="16448250" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="1710618" bgColor="16448250" />
+            <WordsStyle name="COMMENTBLOCK" styleID="12" fgColor="8417899" bgColor="16448250" fontStyle="2" />
+            <WordsStyle name="DECORATOR" styleID="15" fgColor="1775640" bgColor="16448250" fontStyle="2" />
+        </LexerType>
+        <LexerType name="javascript" desc="JavaScript">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="1710618" bgColor="16448250" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="8417899" bgColor="16448250" fontStyle="2" />
+            <WordsStyle name="COMMENTLINE" styleID="2" fgColor="8417899" bgColor="16448250" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="16209320" bgColor="16448250" />
+            <WordsStyle name="WORD" styleID="5" fgColor="4726241" bgColor="16448250" fontStyle="2" />
+            <WordsStyle name="STRING" styleID="6" fgColor="16155195" bgColor="16448250" />
+            <WordsStyle name="STRINGEOL" styleID="8" fgColor="16155195" bgColor="16448250" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="1775640" bgColor="16448250" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="1710618" bgColor="16448250" />
+        </LexerType>
+    </LexerStyles>
+</NotepadPlus>
