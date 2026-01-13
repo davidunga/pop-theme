@@ -22,7 +22,7 @@ Comes in 5 flavors: **DarkPop** (White / Gold / Mint / Blue) and **LightPop** (G
 - Search for "Pop Theme" in the Extensions sidebar
 
 **Option 2: Manual Install**
-1. Download the `.vsix` file from [Releases](../../releases)
+1. Download `pop-theme-1.0.0.vsix` from the `vscode/` folder
 2. In VS Code: `Cmd+Shift+P` → "Install from VSIX"
 3. Select the downloaded file
 4. `Cmd+K Cmd+T` → Choose your Pop Theme variant
